@@ -1,0 +1,33 @@
+# Private configuration and credentials
+/config.yaml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local knowledge, research history, uploads, images and diagnostics
+/data/
+/.runtime/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Build outputs, dependencies and editor-local state
+*.exe
+*.dll
+*.test
+*.out
+/DeepSearch
+/deepsearch
+/node_modules/
+/coverage/
+/.idea/
+/.vscode/
+/.codex/
+/.agents/
+.DS_Store
+Thumbs.db

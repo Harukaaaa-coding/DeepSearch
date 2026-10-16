@@ -1,0 +1,12 @@
+# Non-secret Agent tuning. API provider and key remain in config.yaml.
+prompts:
+  report_synthesizer: prompts/report_synthesizer.md
+  research_planner: prompts/research_planner.md
+
+memory:
+  # Estimated tokens, not an API-provider context guarantee.
+  context_window_tokens: 16000
+  # Keep raw recent context until this percentage, then compress only older tool events.
+  compress_at_percent: 78
+  retain_recent_events: 12
+  summary_token_budget: 1800

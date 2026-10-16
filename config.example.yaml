@@ -1,0 +1,17 @@
+# Copy to config.yaml and fill in a key issued by the selected provider.
+# Never commit config.yaml. An empty key keeps model synthesis unconfigured.
+report_model:
+  provider: bai
+  model: gpt-5.2
+  api_key: ""
+
+# Optional image generation: uncomment only if you intend to use a paid image API.
+# PRD generation can automatically request prototype and architecture images.
+# An empty image key reuses report_model.api_key; use a B.AI key here.
+# image_model:
+#   provider: bai
+#   model: gpt-image-2
+#   api_key: ""
+#   size: 2528x1696
+#   quality: high
+#   timeout_seconds: 600

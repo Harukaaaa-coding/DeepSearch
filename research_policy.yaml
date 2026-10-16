@@ -1,0 +1,10 @@
+# 有界补证：上限不是承诺，只有实际读到的相关正文才计入覆盖。
+max_rounds: 5
+max_queries: 30
+max_sources: 36
+read_batch: 8
+target_sources: 20
+target_domains: 8
+target_evidence: 40
+max_evidence: 80
+max_seconds: 240
